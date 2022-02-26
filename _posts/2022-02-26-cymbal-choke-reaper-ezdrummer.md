@@ -7,9 +7,9 @@ tags:
 - Reaper
 - EZdrummer
 ---
-About ten months into the [Great Catalysm][covid-19] (that catalysm, not [this one][russian-invasion], sigh), I decided that I needed to start doing something with my time while in lockdown. So, off I went onto the Internet to buy myself an electronic drum kit&mdash;an [Alesis Nitro Mesh kit][nitro-mesh]&mdash;which has been a huge amount of fun. I've logged more than 400 unbroken days on [Melodics][melodics] learning to play and now I'm a reasonably competent bedroom drumm.er
+About ten months into the [Great Catalysm][covid-19] (_that_ catalysm, not [this one][russian-invasion], sigh), I decided that I needed to start doing something with my time while in lockdown. So, off I went onto the Internet to buy myself an electronic drum kit&mdash;an [Alesis Nitro Mesh kit][nitro-mesh]&mdash;which has been a huge amount of fun. I've logged more than 400 unbroken days on [Melodics][melodics] learning to play and now I'm a reasonably competent bedroom drummer.
 
-Unfortunately, I have neglected all of my recording projects due to creative blocks or fatigue or mental exhaustion or something. Anyway, I'm planning to get back into it. A little task I've set myself is to (re)learn is how to get drums into [Reaper][reaper] and, thence, into [EZdrummer 2][ezdrummer]. I've been playing around with incorporating [cymbal chokes][cymbal-choke] into Reaper since the Alesis drum module doesn't send the same kind of MIDI data that EZdrummer expects. So, in this post I'm going to document how I do this for posterity by reverse-engineering some stuff I programmed into Reaper previously.
+Unfortunately, I have neglected all of my recording projects due to creative block or fatigue or mental exhaustion or something. Anyway, I'm planning to get back into it. A little task I've set myself is to (re)learn is how to get drums into [Reaper][reaper] and, thence, into [EZdrummer 2][ezdrummer]. I've been playing around with incorporating [cymbal chokes][cymbal-choke] into Reaper since the Alesis drum module doesn't send the same kind of MIDI data that EZdrummer expects. So, in this post I'm going to document how I do this for posterity by reverse-engineering some stuff I programmed into Reaper previously.
 
 The easiest way I've found is to add MIDI poly aftertouch events. Here's the MIDI event editor in Reaper:
 
@@ -17,7 +17,7 @@ The easiest way I've found is to add MIDI poly aftertouch events. Here's the MID
 
 Here are the events of interest:
 
-* Index 713: Kick hit that was played concurrently with the cymbal hit
+* Index 713: Kick hit that was played concurrently with the cymbal hit: because doing that is totally badass
 * Index 714: Cymbal hit
 * Index 715: _Poly Aftertouch_ with full velocity played shortly after cymbal hit
 * Index 716: _Poly Aftertouch_ with zero velocity played immediately after the full velocity
