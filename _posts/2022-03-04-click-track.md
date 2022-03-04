@@ -11,7 +11,7 @@ This is a note to myself about how I program a vibrating metronome click track a
 * [Peterson Body Beat Pulse Solo][body-beat-pulse-solo] vibrating metronome
 * [Alesis SR18][alesis-sr18] drum machine
 
-# Step (1): Create Alesis SR18 MIDI drum set
+## Step (1): Create Alesis SR18 MIDI drum set
 
 This creates a drum set on the SR18 with normal, subaccent and accent pads programmed with panning so that it correctly triggers the Body Beat Pulse Solo:
 
@@ -39,7 +39,7 @@ This creates a drum set on the SR18 with normal, subaccent and accent pads progr
 | Subaccent | 3 (_Snare 2_) | full left          |
 | Accent    | 10 (_Crash_)  | full right         |
 
-# Step (2): Program change track
+## Step (2): Program change track
 
 This creates a MIDI track used to send messages to the SR18 to load the MIDI metronome drum set created in Step (1).
 
@@ -59,7 +59,7 @@ Events should look something like the following screenshot:
 
 ![Screenshot]({{ site.url }}/assets/2022-03-04-click-track/screenshot.png)
 
-# Step (3) Metronome track
+## Step (3) Metronome track
 
 This creates a MIDI track to send note messages to the SR18 to trigger the vibrating metronome.
 
@@ -70,7 +70,7 @@ This creates a MIDI track to send note messages to the SR18 to trigger the vibra
 5. Load [Alesis_SR18_pads.txt]({{ site.url }}/assets/2022-03-04-click-track/Alesis_SR18_pads.txt) note names
 6. Program a sequence of accent, subaccent and normal notes
 
-# Count-in track
+## Step (4): Count-in track
 
 Purpose: Audible count-in using Sitala drum machine VSTi
 
