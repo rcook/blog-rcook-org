@@ -1,0 +1,17 @@
+# MIDI note/CC name map
+51 Rim Shot
+50 Cowbell
+49 Maraca
+48 Clave
+47 Hand Clap
+46 High Conga
+45 Mid Conga
+44 Low Conga
+43 High Tom
+42 Mid Tom
+41 Low Tom
+40 Cymbal
+39 Open Hi-Hat
+38 Closed Hi-Hat
+37 Snare
+36 Kick

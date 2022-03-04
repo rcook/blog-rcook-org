@@ -1,0 +1,13 @@
+# MIDI note/CC name map
+53 Pad 12 Bell
+51 Pad 11 Ride
+49 Pad 10 Crash (accent)
+48 Pad 7 Tom 1
+47 Pad 8 Tom 2
+46 Pad 6 Hi-hat open
+44 Pad 5 Hi-hat half-open
+42 Pad 4 Hi-hat closed (normal)
+41 Pad 9 Tom 3
+38 Pad 2 Snare 1
+37 Pad 3 Snare 2 (subaccent)
+36 Pad 1 Kick
