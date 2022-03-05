@@ -1,15 +1,38 @@
 ---
 layout: post
-title: Click track in Reaper
+title: How to program a vibrating click track in Reaper
 created: 2022-03-04 10:14:00 -0800
 tags:
+- EZdrummer
 - Music
 - Reaper
 ---
 This is a note to myself about how I program a vibrating metronome click track as well as audible metronome in Reaper. This is the equipment I use:
 
+* [Reaper][reaper] with [Sitala][sitala] VSTi
 * [Peterson Body Beat Pulse Solo][body-beat-pulse-solo] vibrating metronome
 * [Alesis SR18][alesis-sr18] drum machine
+
+## Background
+
+The Body Beat Pulse Solo is a nice piece of kit. It can produce three different intensity of vibrations namely normal (low), subaccent (medium) and accent (high). In order to figure out how to drive it from the drum machine, I reached out Peterson's technical support who were very helpful:
+
+> Hi Richard,
+>
+> Thank you for your contact.
+>
+> The three levels of intensity are not so much triggered by the audio input signal type but rather by the panning of the signal.
+>
+> You can use the same click sample and assign it to three audio tracks. Pan one track hard left, one track hard right, and the third can stay stereo.
+>
+> Panning assignments:
+> Normal (low intensity): Both Channels
+> Accent (highest intensity): Right Channel only
+> Sub Accent (Medium intensity): Left Channel only
+>
+> It will likely be best to MIDI program your sample triggers and print to audio. I am not a Reaper expert but hopefully this will give you something to experiment with.
+
+Great! The remainder of this article describes how I create an SR18 drum set to drive the Body Beat Pulso Solo and then create Reaper MIDI tracks to drive the SR18.
 
 ## Step (1): Create Alesis SR18 MIDI drum set
 
@@ -24,7 +47,7 @@ This creates a drum set on the SR18 with normal, subaccent and accent pads progr
     * Page 2 (_VOLUME_): _99_
     * Page 3: _Metrnome 000_
     * Page 4 (_PAD VOL_): _99_
-    * Page 6 (_TUNING_): _0)
+    * Page 6 (_TUNING_): _0_
     * Page 7 (_ENV ATTK_): _N/A_
     * Page 8 (_ENV DEC_): _99_
     * Page 9 (_ENV REL_): _N/A_
@@ -41,7 +64,7 @@ This creates a drum set on the SR18 with normal, subaccent and accent pads progr
 
 ## Step (2): Program change track
 
-This creates a MIDI track used to send messages to the SR18 to load the MIDI metronome drum set created in Step (1).
+This creates a MIDI track used to send messages to the SR18 to load the MIDI metronome drum set created in Step (1):
 
 1. Right-click and click _Insert new track_ to add a new, empty MIDI track
 2. Right-click on new track's _Route_ button and set the MIDI output to the appropriate output with _Send all_
@@ -61,7 +84,7 @@ Events should look something like the following screenshot:
 
 ## Step (3) Metronome track
 
-This creates a MIDI track to send note messages to the SR18 to trigger the vibrating metronome.
+This creates a MIDI track to send note messages to the SR18 to trigger the vibrating metronome:
 
 1. Right-click and click _Insert new track_ to add a new, empty MIDI track
 2. Right-click on new track's _Route_ button and set the MIDI output to the appropriate output (same output used in Step (2)) with _Send all as channel 10_
@@ -72,13 +95,15 @@ This creates a MIDI track to send note messages to the SR18 to trigger the vibra
 
 ## Step (4): Count-in track
 
-Purpose: Audible count-in using Sitala drum machine VSTi
+These steps create an audible count-in using the Sitala drum machine VSTi:
 
 1. Insert new virtual instrument track
-2. Add Sitala VSTi via FX
+2. Add [Sitala][sitala] VSTi via FX
 3. Select the _Clean 808_ patch
 4. Load [Sitala_drums.txt]({{ site.url }}/assets/2022-03-04-click-track/Sitala_drums.txt) note names in MIDI piano roll
 5. Program a sequence of clicks etc., e.g. rim shot and claves
 
 [alesis-sr18]: https://www.alesis.com/products/view/sr18
 [body-beat-pulse-solo]: https://www.petersontuners.com/products/bodybeatpulse/
+[reaper]: https://www.reaper.fm/
+[sitala]: https://decomposer.de/sitala/

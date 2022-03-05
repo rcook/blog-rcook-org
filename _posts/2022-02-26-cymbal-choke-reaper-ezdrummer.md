@@ -3,9 +3,10 @@ layout: post
 title: How to program a cymbal choke in Reaper/EZdrummer 2
 created: 2022-02-26 08:08:00 -0800
 tags:
+- Alesis
+- EZdrummer
 - Music
 - Reaper
-- EZdrummer
 ---
 About ten months into the [Great Catalysm][covid-19] (_that_ catalysm, not [this one][russian-invasion], sigh), I decided that I needed to start doing something with my time while in lockdown. So, off I went onto the Internet to buy myself an electronic drum kit&mdash;an [Alesis Nitro Mesh kit][nitro-mesh]&mdash;which has been a huge amount of fun. I've logged more than 400 unbroken days on [Melodics][melodics] learning to play and now I'm a reasonably competent bedroom drummer.
 
