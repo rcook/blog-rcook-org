@@ -70,7 +70,7 @@ This creates a MIDI track used to send messages to the SR18 to load the MIDI met
 2. Right-click on new track's _Route_ button and set the MIDI output to the appropriate output with _Send all_
 3. Select a two-bar section at the start of the new track and click _Insert > New MIDI item_
 4. Double-click on new MIDI item and go to MIDI event list
-5. Load <a href="({{ site.url }}/assets/2022-03-04-click-track/Alesis_SR18_pads.txt" download>Alesis_SR18_pads.txt</a>) note names
+5. Load <a href="{{ site.url }}/assets/2022-03-04-click-track/Alesis_SR18_pads.txt" download>Alesis_SR18_pads.txt</a> note names
 6. Right-click and select _Insert bank/program select event..._
 7. Set _MIDI channel_ to _10_
 8. Set _Bank MSB_ to _0_
@@ -90,7 +90,7 @@ This creates a MIDI track to send note messages to the SR18 to trigger the vibra
 2. Right-click on new track's _Route_ button and set the MIDI output to the appropriate output (same output used in Step (2)) with _Send all as channel 10_
 3. Select a two-bar section after the PC MID clip created in Step (2) click _Insert > New MIDI item_
 4. Double-click on new MIDI item and go to MIDI piano roll
-5. Load <a href="({{ site.url }}/assets/2022-03-04-click-track/Alesis_SR18_pads.txt" download>Alesis_SR18_pads.txt</a>) note names
+5. Load <a href="{{ site.url }}/assets/2022-03-04-click-track/Alesis_SR18_pads.txt" download>Alesis_SR18_pads.txt</a> note names
 6. Program a sequence of accent, subaccent and normal notes
 
 ## Step (4): Count-in track
@@ -100,7 +100,7 @@ These steps create an audible count-in using the Sitala drum machine VSTi:
 1. Insert new virtual instrument track
 2. Add [Sitala][sitala] VSTi via FX
 3. Select the _Clean 808_ patch
-4. Load <a href="({{ site.url }}/assets/2022-03-04-click-track/Sitala_drums.txt" download>Sitala_drums.txt</a>) note names in MIDI piano roll
+4. Load <a href="{{ site.url }}/assets/2022-03-04-click-track/Sitala_drums.txt" download>Sitala_drums.txt</a> note names in MIDI piano roll
 5. Program a sequence of clicks etc., e.g. rim shot and claves
 
 [alesis-sr18]: https://www.alesis.com/products/view/sr18
