@@ -26,8 +26,11 @@ The Body Beat Pulse Solo is a nice piece of kit. It can produce three different 
 > You can use the same click sample and assign it to three audio tracks. Pan one track hard left, one track hard right, and the third can stay stereo.
 >
 > Panning assignments:
+>
 > Normal (low intensity): Both Channels
+>
 > Accent (highest intensity): Right Channel only
+>
 > Sub Accent (Medium intensity): Left Channel only
 >
 > It will likely be best to MIDI program your sample triggers and print to audio. I am not a Reaper expert but hopefully this will give you something to experiment with.
