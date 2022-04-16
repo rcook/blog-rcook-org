@@ -1,3 +1,10 @@
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      lang: en
+
 markdown: kramdown
 permalink: /blog/:year/:title/
 relative_permalinks: false
@@ -31,7 +38,6 @@ noita:
   description: Richard's blog
   author:
     name: Richard Cook
-  lang: en
   favicons:
   - /assets/favicon-256.png
   topbar:

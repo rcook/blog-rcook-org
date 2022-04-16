@@ -3,8 +3,9 @@ layout: compress
 ---
 
 <!doctype html>
-<html dir="ltr" lang="{{ site.noita.lang }}">
+<html dir="ltr" lang="{{ page.lang }}">
 <head>
+  <meta http-equiv="Content-Language" content="{{ page.lang }}">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title | markdownify | remove: '<p>' | remove: '</p>' | strip_html }}</title>
