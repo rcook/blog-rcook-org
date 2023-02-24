@@ -1,7 +1,7 @@
 ---
 lang: nb
 layout: post
-title: Norsk TV-serier og filmer
+title: Norske TV-serier og filmer
 created: 2023-02-23 21:18:00 -0800
 tags:
 - Norwegian
