@@ -1,7 +1,7 @@
 ---
 layout: post
 title: String conversions in Rust
-created: 2023-04-24 21:48:00 -0700
+created: 2023-04-14 21:48:00 -0700
 tags:
 - Rust
 - Programming
@@ -54,5 +54,11 @@ let ost: OsStr = ...
 | `OsString` | `&OsStr`   | `os.as_os_str()`                            |                                        |
 | `OsString` | `Vec<u8>`  | `os.into_vec()`                             | `use std::os::unix::ffi::OsStringExt;` |
 
+**Update: 2023-05-18**
+
+See [String conversions in Rust follow-up][rust-strings-follow-up] to
+find out about conversions to/from `Path` and `PathBuf`.
+
 [jimmy-chu]: https://gist.github.com/jimmychu0807/9a89355e642afad0d2aeda52e6ad2424
 [profpatsch-de]: https://profpatsch.de/notes/rust-string-conversions
+[rust-strings-follow-up]: {% post_url 2023-05-18-rust-strings-follow-up %}
