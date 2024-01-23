@@ -1,6 +1,6 @@
 ---
 layout: post
-title: title: Open mic at The Hidden Door
+title: Open mic at The Hidden Door
 created: 2024-01-22 23:18:00 -0800
 tags:
 - Music
