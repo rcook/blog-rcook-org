@@ -7,7 +7,7 @@ tags:
 - Karaoke
 ---
 My first karaoke video: [Long Time Gone][long-time-gone-karaoke]. I
-built this using [REAPER][reaper] and [moises.ai][moises-ai]
+built this using [REAPER][reaper] and [moises.ai][moises-ai].
 
 [long-time-gone-karaoke]: https://youtu.be/phei8fI4fyE
 [moises-ai]: https://moises.ai/
