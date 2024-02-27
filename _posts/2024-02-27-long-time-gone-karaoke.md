@@ -9,6 +9,6 @@ tags:
 My first karaoke video: [Long Time Gone][long-time-gone-karaoke]. I
 built this using [REAPER][reaper] and [moises.ai][moises-ai].
 
-[long-time-gone-karaoke]: https://youtu.be/phei8fI4fyE
+[long-time-gone-karaoke]: https://youtu.be/S1jhgjq-JT0
 [moises-ai]: https://moises.ai/
 [reaper]: https://reaper.fm/
