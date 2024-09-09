@@ -6,7 +6,7 @@ tags:
 - Music
 - Dystopian Hellscapes
 ---
-1 minutes 37 seconds of nihilism: [Grey If You Let It][grey-if-you-let-it].
+1 minutes 37 seconds of nihilism:
 
 <iframe
     width="640"
