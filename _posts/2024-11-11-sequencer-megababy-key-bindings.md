@@ -37,13 +37,13 @@ tags:
 | `Ctrl`+right-click pattern button | Clear pattern |
 | `Alt`+left-click pattern button | Set pattern chain end |
 | --- | --- |
-| left-click Mode button (PR=Piano Roll, DM=Drum Map) | Change mode |
-| left-click "Play before start" button | Enable/Disable playback before start beat position; "&gt;&#124;&gt;" = play everywhere; " &#124;&gt;" = play only after start beat position |
-| left-click "Start beat position" value | Set start beat position to current play cursor position |
-| left-click "End beat position" value | Set end beat position to current play cursor position. "---" = play infinitely |
-| right-click "Start beat position" value | Set start beat position to default value, "0.000" |
-| right-click "End beat position" value | Set end beat position to default value, "---" |
-| left-click/drag "Note length" slider | Set/adjust note length for all notes; 100% equals full step length |
+| left-click mode button | Change mode; `PR` = piano roll, `DM` = drum map |
+| left-click _Play before start_ button | Enable/disable playback before start beat position; `>|>` = play everywhere; `|>` = play only after start beat position |
+| left-click _Start beat position_ value | Set start beat position to current play cursor position |
+| left-click _End beat position_ value | Set end beat position to current play cursor position; `---` = play infinitely |
+| right-click _Start beat position_ value | Set start beat position to default value, `0.000` |
+| right-click _End beat position_ value | Set end beat position to default value, `---` |
+| left-click/drag _Note length_ slider | Set/adjust note length for all notes; 100% equals full step length |
 | left-click/drag Swing slider | Set/adjust swing |
 | --- | --- |
 | left-click/drag on envelope lane | Draw/adjust envelope of the active envelope type |
