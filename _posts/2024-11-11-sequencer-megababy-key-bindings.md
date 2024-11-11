@@ -37,16 +37,23 @@ tags:
 | `Ctrl`+right-click pattern button | Clear pattern |
 | `Alt`+left-click pattern button | Set pattern chain end |
 | --- | --- |
-| left-click mode button | Change mode; `PR` = piano roll, `DM` = drum map |
-| left-click _Play before start_ button | Enable/disable playback before start beat position; `>|>` = play everywhere; `|>` = play only after start beat position |
-| left-click _Start beat position_ value | Set start beat position to current play cursor position |
-| left-click _End beat position_ value | Set end beat position to current play cursor position; `---` = play infinitely |
-| right-click _Start beat position_ value | Set start beat position to default value, `0.000` |
-| right-click _End beat position_ value | Set end beat position to default value, `---` |
+| left-click _Mode_ | Toggle mode (see notes) |
+| left-click _Play before start_ | Enable/disable playback before start beat position (see notes) |
+| left-click _Start beat position_ | Set start beat position to current play cursor position |
+| left-click _End beat position_ | Set end beat position to current play cursor position |
+| right-click _Start beat position_ | Set start beat position to default value |
+| right-click _End beat position_ | Set end beat position to default value |
 | left-click/drag _Note length_ slider | Set/adjust note length for all notes; 100% equals full step length |
 | left-click/drag Swing slider | Set/adjust swing |
 | --- | --- |
 | left-click/drag on envelope lane | Draw/adjust envelope of the active envelope type |
 | right-click/drag on envelope lane | Erase envelope of the active envelope type |
-| left-click drag up/down envelope MIDI channel (in Drum map mode) | Change MIDI channel of envelope |
-| left-click drag up/down envelope type names/numbers | Change envelope type; types: MIDI CC 0-127; On first envelope (the blue one) type 127 has a special meaning; it controls probability of note playback on each sequence step; only notes on same channel as the envelope will be affected |
+| left-click drag up/down envelope MIDI channel | Change MIDI channel of envelope (drum map mode) |
+| left-click drag up/down envelope type names/numbers | Change envelope type |
+
+## Notes
+
+* _Mode_ button: `PR` = piano roll, `DM` = drum map
+* _Play before start_: `>|>` = play everywhere, `|>` = play only after start beat position
+* _End beat position_: `---` = play indefinitely
+* Envelope types: MIDI CC 0-127; on first envelope (blue) type 127 has a special meaning: it controls probability of note playback on each sequence step; only notes on same channel as the envelope will be affected
