@@ -25,8 +25,8 @@ tags:
 
 | Key | Description |
 | --- | --- |
-| left-click+drag on envelope | Draw/adjust envelope of the active envelope type |
-| right-click+drag on envelope | Erase envelope of the active envelope type |
+| left-click+drag | Draw/adjust envelope of the active envelope type |
+| right-click+drag | Erase envelope of the active envelope type |
 | left-click+drag up/down envelope MIDI channel | (Drum map mode) Change MIDI channel of envelope |
 | left-click+drag up/down envelope type names/numbers | Change envelope type |
 
