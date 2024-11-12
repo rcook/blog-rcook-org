@@ -3,7 +3,7 @@ layout: post
 title: Sequencer Megababy key bindings
 created: 2024-11-11 11:30:00 -0800
 tags:
-- REAPER
+- Reaper
 ---
 
 ## Notes
