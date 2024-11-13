@@ -66,14 +66,14 @@ tags:
 | Key | Description |
 | --- | --- |
 | left-click **Mode** | Toggle mode (see notes) |
-| left-click **Play before start** | Enable/disable playback before start beat position (see notes) |
-| left-click **Start beat position** | Set start beat position to current play cursor position |
-| right-click **Start beat position** | Set start beat position to default value |
-| left-click **End beat position** | Set end beat position to current play cursor position |
-| right-click **End beat position** | Set end beat position to default value |
-| left-click+drag **Note length** slider | Set/adjust note length for all notes; 100% equals full step length |
+| left-click **PlayBeforeStart** | Enable/disable playback before start beat position (see notes) |
+| left-click **StartBeatPos** | Set start beat position to current play cursor position |
+| right-click **StartBeatPos** | Set start beat position to default value |
+| left-click **EndBeatPos** | Set end beat position to current play cursor position |
+| right-click **EndBeatPos** | Set end beat position to default value |
+| left-click+drag **NoteLength** slider | Set/adjust note length for all notes; 100% equals full step length |
 | left-click+drag **Swing** slider | Set/adjust swing |
 
 * **Mode** button: `PR` = piano roll, `DM` = drum map
-* **Play before start**: `>|>` = play everywhere, `|>` = play only after start beat position
-* **End beat position**: `---` = play indefinitely
+* **PlayBeforeStart**: `>|>` = play everywhere, `|>` = play only after start beat position
+* **EndBeatPos**: `---` = play indefinitely
