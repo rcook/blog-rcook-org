@@ -1,4 +1,4 @@
-# Richard's blog
+# Richard's Blog
 
 ## Set up Bundler environment (Windows only)
 

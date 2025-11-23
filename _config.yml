@@ -35,7 +35,7 @@ layouts_dir: ./_noita
 
 noita:
   name: blog.rcook.org
-  description: Richard's blog
+  description: Richard's Blog
   author:
     name: Richard Cook
   favicons:
