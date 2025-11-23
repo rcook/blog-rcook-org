@@ -1,6 +1,6 @@
 ---
 layout: post
-title: &quot;Mask&quot; Released
+title: Mask Released
 created: 2025-11-23 10:10:00 -0800
 tags:
 - Music
