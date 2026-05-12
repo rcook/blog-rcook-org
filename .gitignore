@@ -3,7 +3,6 @@
 .sass-cache
 _gists/
 _site/
-node_modules/
 Gemfile.lock
 *.swp
 .DS_Store
