@@ -7,7 +7,10 @@ tags:
 ---
 
 I've started writing [Double Bass Drumming Training Manual][dbdtm]. This is a companion
-to Bobby Rondinelli and Michael Lauren's well-known book _The Encyclopedia of Double Bass Drumming (Revised Edition)_.
+to Bobby Rondinelli and Michael Lauren's well-known book _The Encyclopedia of Double Bass Drumming_&mdash;.
+The manual will work equally well as a companion to either the Original or Revised edition
+of the book since the content of the first fourteen chapters of the two editions is identical.
+
 I bought R&L's book since it was cited as an indispensable resource for aspiring double
 bass drummers. Indeed, it _is_ a really good book. Unfortunately, I doesn't offer
 sufficient structure and step-by-step guidance for a beginner to know how to consume it.
