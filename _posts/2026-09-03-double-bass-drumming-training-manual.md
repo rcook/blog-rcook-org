@@ -24,8 +24,8 @@ The manual is not intended to be _optimal_&mdash;my hope is that it will be _doa
 Bear in mind that it could naturally take a lifetime to "master" double bass drumming and that
 there's enough material in the book to last said lifetime. Since my plan is to write the manual
 as I progress through the book, it's likely that it'll take years to finish. To give you an idea
-of the current pace of writing, I started working through the book and working on it in late July
-2026. So far&mdash;early September 2026&mdash;I've completed Chapter 1. This chapter is ready for
+of the current pace of writing, I started working through the book and working on it in late July 2026.
+So far&mdash;early September 2026&mdash;I've completed Chapter 1. This chapter is ready for
 anyone else to work through. I've since graduated to Chapter 2. This is now mostly complete too.
 It's likely that it'll take about another month to complete Chapter 2. Note that I'll revise older
 chapters of the manual as the pedagogical approach evolves and to fix errors but I don't expect
