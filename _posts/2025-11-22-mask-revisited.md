@@ -6,7 +6,7 @@ tags:
 - Music
 ---
 
-[Mask album artwork]({{ site.url }}/assets/2025-11-22-mask-revisited/Richard_Cook_Mask-256x256.png)
+![Mask album artwork]({{ site.url }}/assets/2025-11-22-mask-revisited/Richard_Cook_Mask-256x256.png)
 
 I've decided to bring my album release date forward. "Mask" will be released on [Bandcamp][mask-bandcamp] and [SoundCloud][mask-soundcloud] on 24 November 2025 unless I change my mind at the last minute!
 
